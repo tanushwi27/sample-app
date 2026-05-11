@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: us-east1-docker.pkg.dev/qwiklabs-gcp-02-2a4a8a8281f4/my-repository/prod-image:v1.0
+        image: us-east1-docker.pkg.dev/qwiklabs-gcp-02-2a4a8a8281f4/my-repository/prod-image:v2.0
         ports:
         - containerPort: 8080
